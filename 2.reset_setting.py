@@ -1,7 +1,7 @@
 from ultralytics import settings
 
 # Update a setting
-# settings.update({"datasets_dir": "D:\\2.Python_projects\\81.-yolov8-project\\datasets"})
+# settings.update({"datasets_dir": "D:\\2.Python_projects\\81.-yolov8-project\\datasets_custom"})
 
 # # Reset settings to default values
 settings.reset()
