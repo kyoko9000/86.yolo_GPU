@@ -1,10 +1,10 @@
 from ultralytics import settings
 
 # Update a setting
-# settings.update({"datasets_dir": "D:\\2.Python_projects\\81.-yolov8-project\\datasets_custom"})
+# settings.update({"datasets_dir": "D:\\2.Python_projects\\86.yolo_GPU\\datasets"})
 
 # # Reset settings to default values
-settings.reset()
+# settings.reset()
 
 # View all settings
 print(settings)
