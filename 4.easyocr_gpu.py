@@ -33,7 +33,7 @@ for item in data:
 # print("tiêu đề", processed_data[0])
 # print("data", processed_data[1:])
 data = processed_data[1:]
-
+# print(data)
 # Số lượng phần tử trong mỗi danh sách con
 n = 7
 # Ghép mỗi 7 phần tử thành một list con
