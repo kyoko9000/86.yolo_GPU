@@ -2,7 +2,7 @@ import pytesseract
 from PIL import Image
 
 # Đường dẫn đến tesseract.exe trên Windows
-pytesseract.pytesseract.tesseract_cmd = 'pytesseract_store/tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = 'tesseract_store/tesseract.exe'
 
 # Đọc văn bản từ ảnh CCCD
 image_path = 'dulieu.jpg'

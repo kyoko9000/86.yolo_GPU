@@ -18,7 +18,7 @@ for (_, text, _) in result:
     # Giả sử mỗi dòng trong bảng được tách bằng khoảng trắng
     data.append(text.split())
 
-# Kết quả đầu ra với các phần tử đã được xử lý
+# # Kết quả đầu ra với các phần tử đã được xử lý
 processed_data = []
 
 for item in data:
@@ -33,7 +33,7 @@ for item in data:
 # print("tiêu đề", processed_data[0])
 # print("data", processed_data[1:])
 data = processed_data[1:]
-# print(data)
+print(data)
 # Số lượng phần tử trong mỗi danh sách con
 n = 7
 # Ghép mỗi 7 phần tử thành một list con
